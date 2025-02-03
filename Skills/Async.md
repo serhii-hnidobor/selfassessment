@@ -1,19 +1,19 @@
 ## Asynchronous programming
 
 - Theory
-  - Event loop 🙋
+  - Event loop: 🙋 explained
   - `try..catch` cc
-  - Non-blocking 🎓
-  - Async I/O 🎓
-  - Thread pool 🎓
-  - Pattern Reactor 
+  - Non-blocking: 🎓 known
+  - Async I/O: 🎓 known
+  - Thread pool: 🎓 known
+  - Pattern Reactor
   - CAS operations
   - epoll
   - kqueue
   - Completion ports
   - Event ports
-  - libuv 🎓
-  - Race conditions 🖐️
+  - libuv: 🎓 known
+  - Race conditions: 🖐️ used
   - Dead locks
   - Live locks
   - Concurrent programming
@@ -59,30 +59,30 @@
   - Mutex
   - Spin Lock
 - JavaScript & Node.js specific
-  - Timers 🖐️
-  - `setImmediate` 🎓
-  - `nextTick` 🎓
+  - Timers: 🖐️ used
+  - `setImmediate`: 🎓 known
+  - `nextTick`: 🎓 known
   - AbortController 🖐
-  - AbortSignal 🎓
-  - Promise unhandled rejection 🖐️
-  - Promise double resolve 🖐️
+  - AbortSignal: 🎓 known
+  - Promise unhandled rejection: 🖐️ used
+  - Promise double resolve: 🖐️ used
   - Atomics
   - High resolution clock
-  - Callback hell 🔬
-  - Promise hell 🔬
+  - Callback hell: 🔬 researched
+  - Promise hell: 🔬 researched
   - ref() and unref()
-  - Error handling in async code 🔬
-  - Better stack traces with return await 🔬
-  - JSON streaming serialization 🔬
+  - Error handling in async code: 🔬 researched
+  - Better stack traces with return await: 🔬 researched
+  - JSON streaming serialization: 🔬 researched
   - AsyncLocalStorage
   - AsyncResource
 - Techniques
   - Async.js library
   - RxJS library
-  - Promise.all 🖐️
-  - Promise.allSettled 🖐️
-  - Promise.race 🖐️
-  - Promise.any 🖐️
+  - Promise.all: 🖐️ used
+  - Promise.allSettled: 🖐️ used
+  - Promise.race: 🖐️ used
+  - Promise.any: 🖐️ used
   - Web Locks API
   - IPC
   - Channel API

@@ -1,104 +1,104 @@
 ## Node.js and backend
 
 - Internals and concepts
-  - Strong and weak sides of node.js 🙋
-  - Stateful and stateless servers 🙋
-  - Nonblocking I/O and blocking code 🙋
-  - Event loop phases 🙋
-  - Event loop microtasks and macrotasks 🙋
-  - Garbage collection 🎓
-  - Node.js LTS schedule 🎓 
-  - I/O-bound, CPU-bound, memory-bound tasks 🎓
-  - Interactive applications (close to real-time) 🎓
+  - Strong and weak sides of node.js: 🙋 explained
+  - Stateful and stateless servers: 🙋 explained
+  - Nonblocking I/O and blocking code: 🙋 explained
+  - Event loop phases: 🙋 explained
+  - Event loop microtasks and macrotasks: 🙋 explained
+  - Garbage collection: 🎓 known
+  - Node.js LTS schedule: 🎓 known
+  - I/O-bound, CPU-bound, memory-bound tasks: 🎓 known
+  - Interactive applications (close to real-time): 🎓 known
 - Modularity, layers and dependencies
-  - CommonJS modules 🖐️
-  - ECMAScript modules 🖐️
-  - Module `node:module` 🎓
-  - Caching in CJS and ESM 🎓
-  - Modules as singletons 🎓
-  - Contexts and scripts module `node:vm` 🎓
-  - Dependencies: `npm`, `node_modules` 🙋
-  - Files `package.json`, `package-lock.json` 🙋
-  - Module-based permissions model 🎓
-  - Isolation with modularity  👂
-  - Dependency injection 🙋
-  - DI containers 🙋
-  - Coupling and cohesion 🎓
-  - Framework agnostic approach 🚀
+  - CommonJS modules: 🖐️ used
+  - ECMAScript modules: 🖐️ used
+  - Module `node:module`: 🎓 known
+  - Caching in CJS and ESM: 🎓 known
+  - Modules as singletons: 🎓 known
+  - Contexts and scripts module `node:vm`: 🎓 known
+  - Dependencies: `npm`, `node_modules`: 🙋 explained
+  - Files `package.json`, `package-lock.json`: 🙋 explained
+  - Module-based permissions model: 🎓 known
+  - Isolation with modularity: 👂 heard
+  - Dependency injection: 🙋 explained
+  - DI containers: 🙋 explained
+  - Coupling and cohesion: 🎓 known
+  - Framework agnostic approach: 🚀 constructed
 - Environment
-  - Command line arguments 🖐️
-  - Node.js CLI 🖐️
-  - Process-based permissions 👂
-  - Graceful shutdown 🖐️
-  - Clustering 🖐️
-  - Watch filesystem changes with --watch 🖐️
+  - Command line arguments: 🖐️ used
+  - Node.js CLI: 🖐️ used
+  - Process-based permissions: 👂 heard
+  - Graceful shutdown: 🖐️ used
+  - Clustering: 🖐️ used
+  - Watch filesystem changes with --watch: 🖐️ used
 - Internal API
-  - Streams API 🙋
-  - Web Streams API 
-  - Crypto API  🖐️
-  - Password hashing with crypto.scrypt  🙋
-  - Web Crypto API 
-  - File system API (sync and async) 🖐️
-  - Copy folder recursively 🚀
-  - Worker threads  🎓
-  - Performance hooks 🎓
+  - Streams API: 🙋 explained
+  - Web Streams API
+  - Crypto API: 🖐️ used
+  - Password hashing with crypto.scrypt: 🙋 explained
+  - Web Crypto API
+  - File system API (sync and async): 🖐️ used
+  - Copy folder recursively: 🚀 constructed
+  - Worker threads: 🎓 known
+  - Performance hooks: 🎓 known
   - Native fetch and nodejs/undici
-  - async_hooks 👂
+  - async_hooks: 👂 heard
   - AsyncLocalStorage
   - AsyncResource
-  - Deprecated domain API 👂
-  - Node.js single executable 🚀
+  - Deprecated domain API: 👂 heard
+  - Node.js single executable: 🚀 constructed
   - SharedArrayBuffer
-  - Module `node:worker_threads` 🎓
-  - Module `node:child_process` 🎓
+  - Module `node:worker_threads`: 🎓 known
+  - Module `node:child_process`: 🎓 known
   - MessageChannel, MessagePort
   - BroadcastChannel
-  - Generating crypto random UUID 
-  - Module `node:url` vs `new URL` 👂
-  - Module `node:assert`🎓
-  - Internationalization 🎓
-  - Blob, File, Buffer, module `node:buffer` 🖐️
-  - Module `node:zlib` 
+  - Generating crypto random UUID
+  - Module `node:url` vs `new URL`: 👂 heard
+  - Module `node:assert`: 🎓 known
+  - Internationalization: 🎓 known
+  - Blob, File, Buffer, module `node:buffer`: 🖐️ used
+  - Module `node:zlib`
 - Network
-  - Endpoint throttling 🖐️
+  - Endpoint throttling: 🖐️ used
   - ALPN
   - SNI callback
   - SSL certificates
-  - Protocol agnostic approach 🖐️
-  - Fetch API 🖐️
+  - Protocol agnostic approach: 🖐️ used
+  - Fetch API: 🖐️ used
   - IncomingMessage
-  - HTTP(S) 🖐️
-  - TCP/SSL 🖐️
-  - UDP 🖐️
+  - HTTP(S): 🖐️ used
+  - TCP/SSL: 🖐️ used
+  - UDP: 🖐️ used
   - TLS
-  - Websocket 🖐️
+  - Websocket: 🖐️ used
   - SSE
   - HTTP/3 (QUIC)
-  - Long polling 🎓
-  - REST 🖐️
+  - Long polling: 🎓 known
+  - REST: 🖐️ used
   - RPC
-  - Routing 🖐️
-  - DoS 🎓
-  - DDoS 🎓
-  - XSS 🎓
-  - Path traversal 🎓
-  - CSRF 🎓
+  - Routing: 🖐️ used
+  - DoS: 🎓 known
+  - DDoS: 🎓 known
+  - XSS: 🎓 known
+  - Path traversal: 🎓 known
+  - CSRF: 🎓 known
   - DNS
-  - SQL injection 🎓
+  - SQL injection: 🎓 known
   - noDelay
-  - keep-alive 🎓
-  - IP sticky sessions 
+  - keep-alive: 🎓 known
+  - IP sticky sessions
 - Technique and tools
   - Native test runner
   - Logging
   - Application configuring
   - Testing
-  - CI/CD  🖐️
-  - Readable 🖐️
-  - Writable 🖐️
+  - CI/CD: 🖐️ used
+  - Readable: 🖐️ used
+  - Writable: 🖐️ used
   - Transform
-  - Back pressure  🎓
-  - Buffer 🖐️ 
+  - Back pressure: 🎓 known
+  - Buffer: 🖐️ used
   - Console
   - Inspector
 - Data access
@@ -110,15 +110,15 @@
   - CRUD
   - DTO
 - Error handling and debugging
-  - `Error` 🙋
-  - `error.cause` 🙋
-  - `error.code` 🙋
-  - `error.message` 🙋
-  - `error.stack` 🖐️
-  - `Error.captureStackTrace`  🖐️
-  - How to avoid mixins 🙋
-  - Uncaught exceptions  🖐️
-  - Heap dump   🖐️
+  - `Error`: 🙋 explained
+  - `error.cause`: 🙋 explained
+  - `error.code`: 🙋 explained
+  - `error.message`: 🙋 explained
+  - `error.stack`: 🖐️ used
+  - `Error.captureStackTrace`: 🖐️ used
+  - How to avoid mixins: 🙋 explained
+  - Uncaught exceptions: 🖐️ used
+  - Heap dump: 🖐️ used
   - Debugging tools
   - Flame graph
   - Memory leaks
@@ -126,7 +126,7 @@
   - Data race
 - Integrations and bindings
   - Native addons
-  - `C` and `C++` addons 👂
+  - `C` and `C++` addons: 👂 heard
   - `Rust` addons
   - `Zig` addons
   - NAN (Native Abstractions for Node.js)
@@ -136,7 +136,7 @@
   - NAPI `Zig`
   - Webassembly `WAT`
   - Webassembly `C` and `C++`
-  - Webassembly `Rust` 👂
+  - Webassembly `Rust`: 👂 heard
   - Webassembly `Zig`
   - Webassembly `AssemblyScript`
   - Shared memory
