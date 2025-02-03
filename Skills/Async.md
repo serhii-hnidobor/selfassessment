@@ -1,19 +1,19 @@
 ## Asynchronous programming
 
 - Theory
-  - Event loop
-  - `try..catch`
-  - Non-blocking
-  - Async I/O
-  - Thread pool
-  - Pattern Reactor
+  - Event loop 🙋
+  - `try..catch` cc
+  - Non-blocking 🎓
+  - Async I/O 🎓
+  - Thread pool 🎓
+  - Pattern Reactor 
   - CAS operations
   - epoll
   - kqueue
   - Completion ports
   - Event ports
-  - libuv
-  - Race conditions
+  - libuv 🎓
+  - Race conditions 🖐️
   - Dead locks
   - Live locks
   - Concurrent programming
@@ -59,30 +59,30 @@
   - Mutex
   - Spin Lock
 - JavaScript & Node.js specific
-  - Timers
-  - `setImmediate`
-  - `nextTick`
-  - AbortController
-  - AbortSignal
-  - Promise unhandled rejection
-  - Promise double resolve
+  - Timers 🖐️
+  - `setImmediate` 🎓
+  - `nextTick` 🎓
+  - AbortController 🖐
+  - AbortSignal 🎓
+  - Promise unhandled rejection 🖐️
+  - Promise double resolve 🖐️
   - Atomics
   - High resolution clock
-  - Callback hell
-  - Promise hell
+  - Callback hell 🔬
+  - Promise hell 🔬
   - ref() and unref()
-  - Error handling in async code
-  - Better stack traces with return await
-  - JSON streaming serialization
+  - Error handling in async code 🔬
+  - Better stack traces with return await 🔬
+  - JSON streaming serialization 🔬
   - AsyncLocalStorage
   - AsyncResource
 - Techniques
   - Async.js library
   - RxJS library
-  - Promise.all
-  - Promise.allSettled
-  - Promise.race
-  - Promise.any
+  - Promise.all 🖐️
+  - Promise.allSettled 🖐️
+  - Promise.race 🖐️
+  - Promise.any 🖐️
   - Web Locks API
   - IPC
   - Channel API
