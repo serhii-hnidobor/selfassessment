@@ -1,14 +1,14 @@
 ## Programming fundamental concepts
 
 - Concepts
-  - Model
-  - Modeling
+  - Model 👂
+  - Modeling 👂
   - Subject domain
-  - Algorithm
-  - Syntax
-  - Semantics
-  - Abstraction
-  - Paradigm
+  - Algorithm  🎓
+  - Syntax 🖐️	
+  - Semantics 🖐️	
+  - Abstraction 🖐️	
+  - Paradigm 🖐️	
   - Programm
   - Programming paradigm
   - Programming language
@@ -16,62 +16,62 @@
   - Module
   - Library
   - Package
-  - Component
-  - Framework
+  - Component 
+  - Framework 🖐️	
   - Platform
-  - Source code
-  - Object code
-  - Machine code
+  - Source code 🖐️	
+  - Object code 
+  - Machine code 🎓
   - Microcode
-  - Software engineering
+  - Software engineering 🎓
   - Decomposition
   - Control flow
   - Data flow
   - Code reuse
   - Defensive programming
-  - Don't repeat yourself (DRY)
-  - KISS principle
+  - Don't repeat yourself (DRY) 🎓
+  - KISS principle 🎓
 - Syntax and concepts
-  - Value
-  - Identifier
-  - Variable
-  - Constant
-  - Scalar
-  - Literal
-  - Expression
-  - Heap
-  - Function
-  - Procedure
-  - Method
-  - Class
-  - Prototype
-  - Event
-  - Type
+  - Value 🖐️
+  - Identifier 🖐️
+  - Variable 🖐️
+  - Constant 🖐️
+  - Scalar 🖐️
+  - Literal 🖐️
+  - Expression 🖐️
+  - Heap 🖐️
+  - Function 🖐️
+  - Procedure 🖐️
+  - Method 🖐️
+  - Class 🖐️
+  - Prototype 🖐️
+  - Event 🖐️
+  - Type 🖐️
   - Flag
-  - Lexical scope
-  - Code block
-  - Conditions
-  - Loops
-  - Assignment
-  - Regular expression
-  - Interface
-  - Namespaces
-  - Call stack
-  - Naming conventions
-  - Coding conventions
-  - Camel case
-  - Snake case
-  - Kebab case
-  - Trailing commas
-  - Return early
-  - Fail-fast
+  - Lexical scope 🖐️
+  - Code block 🖐️
+  - Conditions 🖐️
+  - Loops 🖐️
+  - Assignment 🖐️
+  - Regular expression 🖐️
+  - Interface 🖐️
+  - Namespaces 🖐️
+  - Call stack  🎓
+  - Naming conventions 🖐️
+  - Coding conventions 🖐️
+  - Camel case 🖐️
+  - Snake case 🖐️
+  - Kebab case 🖐️
+  - Trailing commas 🖐️
+  - Return early 🖐️
+  - Fail-fast 🖐️
 - Types
-  - Primitive types
-  - Reference types
-  - Type systems
-  - Strong typing
-  - Weak typing
-  - Duck typing
+  - Primitive types 🖐️
+  - Reference types 🖐️
+  - Type systems 🖐️
+  - Strong typing 🎓
+  - Weak typing 🎓
+  - Duck typing 🎓
   - Static typing
   - Dynamic typing
   - Nominal typing
@@ -81,22 +81,22 @@
   - Covariance
   - Contravariance
 - Functions
-  - Signature
-  - Argument
-  - Parameter
-  - Pure function
-  - Lambda expression
-  - Side effects
-  - Closure
-  - Partial application
-  - Currying
-  - Higher order
-  - Recursion
+  - Signature 🖐️
+  - Argument 🖐️
+  - Parameter 🖐️
+  - Pure function 🖐️
+  - Lambda expression 🖐️
+  - Side effects 🖐️
+  - Closure 🖐️
+  - Partial application 🖐️
+  - Currying 🖐️
+  - Higher order 🖐️
+  - Recursion 🖐️
   - Tail call optimisation
   - Callback
   - Listener
   - Composition
-  - Pipe
+  - Pipe 🖐️
   - Memoize
   - Wrapper
   - Functor
@@ -105,15 +105,15 @@
   - Generator
   - Coroutine
 - Data structures
-  - Array
-  - Structure
-  - Record
-  - Enum
-  - Instance
-  - Object
+  - Array 🖐️
+  - Structure 🖐️
+  - Record 🖐️
+  - Enum 🖐️
+  - Instance 
+  - Object🖐️ 
   - Collection
   - Set
-  - Hash table
+  - Hash table 🖐️
   - Linked list
   - Doubly list
   - Unrolled list
@@ -126,74 +126,74 @@
   - Iterator
   - Mutable state
   - Immutable state
-  - Serialization
-  - String parsing
-  - JSON
+  - Serialization  🖐️
+  - String parsing  🖐️
+  - JSON  🖐️
   - JSON5
   - YAML
 - Networking
-  - DNS
-  - CDN
+  - DNS 🖐️
+  - CDN 🖐️
   - CORS
-  - IPv4
-  - IPv6
+  - IPv4 🖐️
+  - IPv6 🖐️
   - NAT
-  - URL
+  - URL 🖐️
   - URN
-  - URI
+  - URI 🖐️
 - Process and tools
-  - Compiler
-  - Just-in-time compilation
+  - Compiler 🖐️
+  - Just-in-time  compilation
   - Ahead-of-time compilation
   - Transpiler
   - Linter
-  - Polyfill
+  - Polyfill 🖐️
   - Interpreter
   - Linker
   - Dynamic linking
   - Static linking
   - Runtime
-  - Virtual machine
+  - Virtual machine 🖐️
   - Register-based VM
   - Stack-based VM
-  - Containerization
+  - Containerization 🖐️
   - Debugger
   - Tracing
   - Garbage collection
   - Refactoring
-  - Code review
+  - Code review 🖐️
   - Exception
   - Unittesting
-  - git
-  - Github
-  - Docker
+  - git 🖐️
+  - Github 🖐️ 
+  - Docker 🖐️
   - Kubernetes
-  - GCC
+  - GCC 
   - LLVM
 - Antipatterns
-  - Magic numbers
-  - Hard code
-  - Soft code
-  - Cryptic code
+  - Magic numbers  🎓
+  - Hard code 🎓
+  - Soft code 🎓 
+  - Cryptic code 🎓
   - Improbability factor
   - Accidental complexity
   - Action at a distance
   - Spaghetti
   - Silver bullet
-  - Not invented here
-  - Dead code
-  - Unreachable code
-  - Duplicate code
+  - Not invented here 🎓
+  - Dead code 🎓
+  - Unreachable code 🎓
+  - Duplicate code 🎓 
   - Premature optimization
   - Micro-optimization
-  - Nested loops
-  - Long method/function/procedure
-  - Long inheritance
-  - Large class/file
-  - Too many parameters
+  - Nested loops 🎓
+  - Long method/function/procedure 🎓
+  - Long inheritance 🎓
+  - Large class/file 🎓 
+  - Too many parameters 🎓 
   - Pass-through parameters
   - Accumulate and fire
-  - Use switch/case
+  - Use switch/case 🎓
   - Temporary field
   - Handle object as instances and hashes at the same time
   - Use fields instead of arguments
@@ -202,38 +202,38 @@
   - Monkey patch
   - Yo-yo problem
 - Runtimes and virtual machines
-  - Bytecode
-  - V8
+  - Bytecode 🎓
+  - V8 🎓
   - VJM
   - CLR
   - Mono
 - Operating systems
-  - Interrupts
-  - Drivers
-  - Kernel
-  - Ring
-  - Virtual memory
-  - File system
-  - Linux
-  - Unix
+  - Interrupts 👂
+  - Drivers 👂
+  - Kernel 👂
+  - Ring 👂
+  - Virtual memory 👂
+  - File system 👂
+  - Linux 🎓
+  - Unix 🎓
   - BSD
-  - MacOS
-  - Windows
+  - MacOS 
+  - Windows 
   - Real-time OS
   - Embedded OS
 - Standards
-  - ASCII
+  - ASCII 🎓
   - Escape sequence
   - RFC
   - IETF
   - IANA
-  - IEEE
-  - Base64
-  - ECMA
-  - ICANN
+  - IEEE 🎓
+  - Base64 🚀
+  - ECMA 🎓
+  - ICANN 🎓
   - ISO
   - MIME
   - OWASP
-  - UTF-8
+  - UTF-8 🎓
   - W3C
   - ODMG
